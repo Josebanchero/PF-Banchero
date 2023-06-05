@@ -51,7 +51,7 @@ header {
     font-weight: 600;
     font-size: medium;
     align-content: center;
-    display: inline-flex;
+    display: inline;
     justify-content: space-around;
     vertical-align: middle;
     flex-wrap: wrap;
@@ -65,8 +65,9 @@ header {
 
 
 .nav ul li {
-    display: inline-flex;
+    display: inline;
     text-align: center;
+    align-self: center;
     justify-content: space-around;
    
     
