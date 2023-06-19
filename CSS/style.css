@@ -14,8 +14,6 @@ body {
 header {
     background-color: #ddd5d0;
     display: flex;
-   
-
 }
 
 
@@ -111,7 +109,6 @@ h1 {
     width: 100%;
     height: auto;
     margin-top: 60px;
-
 }
 
 .boton_shop {
@@ -163,7 +160,6 @@ footer {
 .instagram, .facebook, .youtube {
     width: auto;
     height: 30px;
-   
 }
 
 
