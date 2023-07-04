@@ -1,0 +1,85 @@
+header {
+    background-color: $beige-claro;
+    display: flex;
+    position: fixed;
+    
+    nav {
+        background-color: $beige-claro;
+        width: 100%;
+        height: 70px;
+        padding: 5px;
+        display: inline-flex;
+        box-shadow: box-shadow ;
+        justify-content: center;
+        vertical-align: middle;
+        flex-wrap: wrap;
+        align-items: center;
+        
+
+        ul {
+            color: $sage;
+            list-style-type: none ;
+            font-family: 'Courier New', Courier, monospace;
+            font-weight: 600;
+            font-size: medium;
+            align-content: center;
+            display: inline-flex;
+            justify-content: center;
+            vertical-align: middle;
+            flex-wrap: wrap;
+            align-items: center;
+            padding: 5px;
+            
+            li {
+                display: inline;
+                text-align: center;
+                align-self: center;
+                justify-content: center;
+               
+                a {
+                    padding: 10px;
+                    color: $sage;
+                    text-decoration: none;
+                        &:hoover {
+                            color: $sage-oscuro;
+                        }
+                }
+
+                .logojb {
+                    align-content: center;
+                    display: inline;
+                    width: 60px;
+                }
+
+                .boton_shop {
+                    display: inline-block;
+                    height: auto;
+                    width: auto;
+                    position: relative;
+                    
+                    .boton_shop button {
+                        color: #7f9183;
+                        width: 90px;
+                        height: 40px;
+                        background: #cfc0bd;
+                        border: 0;
+                        border-radius: 10px;
+                        font-size: medium;
+                        cursor: pointer;
+                        transition: 0.5s;
+                        font-family: 'Courier New', Courier, monospace;
+                        font-weight: 600;
+
+                            &:hover {
+                                color: #596e6b;
+                                background: #aca19f;
+                            }
+                    }
+                }
+            }
+        }
+    }
+
+
+
+}
