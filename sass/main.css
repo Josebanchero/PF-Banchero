@@ -1,4 +1,11 @@
 @charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Courier New", Courier, monospace;
+  box-sizing: border-box;
+}
+
 body {
   background-color: #cfc0bd;
 }
@@ -6,6 +13,7 @@ body * {
   margin: 0;
   padding: 0;
   font-family: "Courier New", Courier, monospace;
+  box-sizing: border-box;
 }
 body p {
   color: #596e6b;
@@ -438,6 +446,11 @@ body .shop-container .item-sh.doce1 {
 }
 
 @media (min-width: 500px) {
+  body header {
+    background-color: #DDD5D0;
+    display: flex;
+    align-self: start;
+  }
   body header nav {
     background-color: #DDD5D0;
     width: 100%;
@@ -507,16 +520,36 @@ body .shop-container .item-sh.doce1 {
     display: inline;
     width: 25px;
   }
+  body footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #b8b8aa;
+    height: 50px;
+    width: 100%;
+    align-content: center;
+    justify-content: center;
+  }
+  body footer .redes {
+    list-style-type: none;
+    display: inline;
+    padding: 2px;
+    align-items: center;
+  }
+  body footer .redes .instagram, body footer .redes .facebook, body footer .redes .youtube {
+    width: auto;
+    height: 30px;
+  }
   body .body-inicio .parrafoprinc {
     font-size: medium;
   }
   body .grid-container {
     display: grid;
-    grid-template-columns: 10px 200px 10px;
-    grid-template-rows: 200px 200px;
+    grid-template-columns: 10px 300px 10px;
+    grid-template-rows: 210px 300px;
     padding: 15px;
     justify-content: center;
-    height: 415px;
+    height: 525px;
+    gap: 20px;
   }
   body .grid-container .grid-item.uno {
     justify-self: center;
@@ -608,6 +641,9 @@ body .shop-container .item-sh.doce1 {
     width: 400px;
     height: 200px;
   }
+  body .contacto-container .texto_form {
+    height: 110px;
+  }
   body .contacto-container .nombre_form, body .contacto-container .email_form, body .contacto-container .motivo_form, body .contacto-container .texto_form {
     font-family: "Courier New", Courier, monospace;
     font-size: small;
@@ -676,11 +712,12 @@ body .shop-container .item-sh.doce1 {
   body .shop-container {
     display: grid;
     grid-template-columns: 50px 300px 50px;
-    grid-template-rows: 30px 110px 120px 25px 30px 50px 30px 110px 120px 25px 30px 50px 30px 110px 120px 25px 30px 50px 30px 110px 120px 25px 30px 50px;
+    grid-template-rows: 30px 200px 120px 25px 30px 50px 30px 200px 120px 25px 30px 50px 30px 200px 120px 25px 30px 50px;
     gap: 10px;
     padding: 25px;
     justify-content: center;
     align-content: center;
+    height: 1545px;
   }
   body .shop-container .item-sh.uno {
     justify-self: center;
@@ -741,15 +778,16 @@ body .shop-container .item-sh.doce1 {
     grid-row: 8/9;
   }
   body .shop-container .item-sh.cuatro2 {
-    justify-content: start;
-    align-content: start;
-    text-align: start;
+    justify-self: center;
+    align-self: center;
+    text-align: center;
     grid-column: 2/3;
     grid-row: 9/10;
   }
   body .shop-container .item-sh.cinco {
-    justify-self: baseline;
-    align-self: baseline;
+    justify-self: center;
+    align-self: center;
+    text-align: center;
     grid-column: 2/3;
     grid-row: 10/11;
   }
@@ -810,7 +848,7 @@ body .shop-container .item-sh.doce1 {
     grid-row: 18/19;
   }
 }
-@media (min-width: 670px) and (max-width: 1240px) {
+@media (min-width: 670px) {
   .nav {
     background-color: #DDD5D0;
     width: 100%;
@@ -898,6 +936,25 @@ body .shop-container .item-sh.doce1 {
     margin-top: 90px;
     text-align: center;
     padding: 10px;
+  }
+  footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #b8b8aa;
+    height: 50px;
+    width: 100%;
+    align-content: center;
+    justify-content: center;
+  }
+  footer .redes {
+    list-style-type: none;
+    display: inline;
+    padding: 2px;
+    align-items: center;
+  }
+  footer .redes .instagram, footer .redes .facebook, footer .redes .youtube {
+    width: auto;
+    height: 30px;
   }
   .grid-container {
     display: grid;
@@ -1006,6 +1063,9 @@ body .shop-container .item-sh.doce1 {
     background: #e3ddd9;
     font-weight: 600;
     width: 300px;
+  }
+  .contacto-container .texto_form {
+    height: 110px;
   }
   .contacto-container .archivo {
     font-family: "Courier New", Courier, monospace;
@@ -1203,14 +1263,10 @@ body .shop-container .item-sh.doce1 {
   body {
     background-color: #cfc0bd;
   }
-  body * {
-    margin: 0;
-    padding: 0;
-    font-family: "Courier New", Courier, monospace;
-  }
   body header {
     background-color: #DDD5D0;
     display: flex;
+    align-self: start;
   }
   body header nav {
     background-color: #DDD5D0;
@@ -1279,6 +1335,11 @@ body .shop-container .item-sh.doce1 {
     display: inline;
     width: 60px;
   }
+  body h1 {
+    color: #596f6b;
+    text-align: center;
+    padding: 10px;
+  }
   body p {
     color: #596e6b;
     font-family: "Courier New", Courier, monospace;
@@ -1301,14 +1362,17 @@ body .shop-container .item-sh.doce1 {
     text-align: center;
   }
   body footer {
-    text-align: center;
     padding: 10px;
+    background-color: #b8b8aa;
+    height: 50px;
+    width: 100%;
+    justify-content: center;
+    align-self: baseline;
   }
   body footer .redes {
     list-style-type: none;
     display: inline;
     padding: 2px;
-    align-items: center;
   }
   body footer .redes .instagram, body footer .redes .facebook, body footer .redes .youtube {
     width: auto;
@@ -1334,7 +1398,7 @@ body .shop-container .item-sh.doce1 {
   }
   body .grid-container {
     display: grid;
-    grid-template-columns: 50px 200px 200px 50px;
+    grid-template-columns: 50px 200px 360px 50px;
     grid-template-rows: 200px 200px;
     gap: 20px;
     height: 600px;
@@ -1436,6 +1500,9 @@ body .shop-container .item-sh.doce1 {
     width: 620px;
     height: 420px;
   }
+  body .contacto-container .texto_form {
+    height: 200px;
+  }
   body .contacto-container .item-c.dos {
     justify-self: start;
     grid-column: 3/4;
@@ -1515,6 +1582,7 @@ body .shop-container .item-sh.doce1 {
     grid-template-rows: 30px 200px 120px 25px 30px 30px;
     gap: 10px;
     padding: 25px;
+    height: 485px;
     justify-content: center;
     align-content: center;
   }
