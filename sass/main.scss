@@ -14,7 +14,7 @@ $sage-oscuro: #596f6b;
 
 
 body {
-    background-color: #cfc0bd;
+    background-color: $beige-rosa;
         * {
             margin: 0;
             padding: 0;
@@ -669,6 +669,31 @@ body {
             .parrafoprinc {
                 font-size: medium;
             }
+
+            .galeria {
+                padding: 16px;
+                
+                .img_princ img {
+                    width: 100%;
+                    object-fit: cover;
+                    display: block;
+                }
+                .lista-imagenes {
+                    display: flex;
+                    overflow: auto;
+                    margin-top: 10px;
+                    cursor: all-scroll;
+                    img {
+                        width: 100%;
+                        object-fit: cover;
+                        width: 100px;
+                        height: 100px;
+                        margin-right: 10px;
+                        display: block;
+                    }
+                }
+        
+            }
     
         }
     
@@ -676,7 +701,7 @@ body {
     
             display: grid;
             grid-template-columns: 10px 300px 10px ; 
-            grid-template-rows: 210px 300px ; 
+            grid-template-rows: 300px 300px ; 
             padding: 15px;
             justify-content: center;
             height: 525px;
@@ -686,12 +711,25 @@ body {
                     justify-self: center;
                     grid-column: 2/3;
                     grid-row: 1/2;
+                    .jose {
+                        width: 250px;
+                        height: 300px;
+                        border-radius: 20px;
+                        align-items: center;
+                    }
                 }
                 .grid-item.dos {
                     justify-self: center;
                     grid-column: 2/3;
                     grid-row: 2/3;
                     text-align: center;
+                    p {
+                        color: #596e6b;
+                        font-family: 'Courier New', Courier, monospace;
+                        padding: 2px;
+                        font-size: large;
+                        
+                    }
                 }
         
         }
@@ -1028,7 +1066,7 @@ body {
         align-items: center;
         position: fixed;
         ul {
-            color: $beige-rosa;
+            
             list-style-type: none ;
             font-family: 'Courier New', Courier, monospace;
             font-weight: 600;
@@ -1095,8 +1133,32 @@ body {
         font-family: 'Courier New', Courier, monospace;
         text-align: center;
         padding: 20px;
-        font-size: large;
+        font-size: larger;
         font-weight: 500;
+    }
+    .galeria {
+        padding: 16px;
+        
+        .img_princ img {
+            width: 100%;
+            object-fit: cover;
+            display: block;
+        }
+        .lista-imagenes {
+            display: flex;
+            overflow: auto;
+            margin-top: 10px;
+            cursor: all-scroll;
+            img {
+                width: 100%;
+                object-fit: cover;
+                width: 350px;
+                height: 350px;
+                margin-right: 10px;
+                display: block;
+            }
+        }
+
     }
     
     h3, h4 {
@@ -1148,6 +1210,12 @@ body {
                 justify-self: center;
                 grid-column: 2/3;
                 grid-row: 1/2;
+                .jose {
+                    width: 250px;
+                    height: 300px;
+                    border-radius: 20px;
+                    align-items: center;
+                }
             }
             .grid-item.dos {
                 justify-self: center;
@@ -1579,12 +1647,6 @@ body {
                 padding: 2px;
             }
             .body-inicio {
-        
-                .img_princ {
-                    width: 100%;
-                    height: auto;
-                    margin-top: 60px;
-                }
                 .parrafoprinc {
                     color: #596e6b;
                     font-family: 'Courier New', Courier, monospace;
@@ -1593,10 +1655,37 @@ body {
                     padding-right: 100px;
                     padding-top: 50px;
                     padding-bottom: 50px;
-                    font-size: large;
+                    font-size: x-large;
                     font-weight: 500;
-                    
                 }
+
+                .galeria {
+                    padding: 16px;
+                    
+                    .img_princ img {
+                        width: 100%;
+                        object-fit: cover;
+                        display: block;
+                    }
+                    .lista-imagenes {
+                        display: flex;
+                        overflow: auto;
+                        margin-top: 10px;
+                        cursor: all-scroll;
+                        img {
+                            width: 100%;
+                            object-fit: cover;
+                            width: 400px;
+                            height: 400px;
+                            margin-right: 10px;
+                            display: block;
+                        }
+                    }
+
+                }
+
+               
+             
             
                 
             
@@ -1655,18 +1744,21 @@ body {
             
             .grid-container {
                 display: grid;
-                grid-template-columns: 50px 200px 360px 50px ; 
-                grid-template-rows: 200px 200px ; 
+                grid-template-columns: 400px 400px; 
+                grid-template-rows: 130px 200px 130px; 
                 gap: 20px;
                 height: 600px;
                 padding: 15px;
                 justify-items: center;
                      
                 .grid-item.uno {
-                    grid-column: 2/3;
-                    grid-row: 1/2;
+                    grid-column: 1/2;
+                    grid-row: 1/3;
+                    
+                    justify-self: center;
                     .jose {
-                        width: 200px;
+                        width: 350px;
+                        height: 500px;
                         border-radius: 20px;
                         align-items: center;
                     }
@@ -1674,8 +1766,16 @@ body {
             
                 .grid-item.dos {
                     justify-self: center;
-                    grid-column: 3/4;
-                    grid-row: 1/2;
+                    grid-column: 2/3;
+                    grid-row: 2/3;
+                    p {
+                        color: #596e6b;
+                        font-family: 'Courier New', Courier, monospace;
+                        padding: 2px;
+                        font-size: large;
+                        
+                    }
+
                 }
             }
             
