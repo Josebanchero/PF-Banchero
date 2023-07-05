@@ -532,12 +532,14 @@ body .shop-container .item-sh.doce1 {
   body footer .redes {
     list-style-type: none;
     display: inline;
-    padding: 2px;
+    padding: 10px;
     align-items: center;
   }
-  body footer .redes .instagram, body footer .redes .facebook, body footer .redes .youtube {
+  body footer .redes .instagram, body footer .redes .facebook, body footer .redes .youtube, body footer .redes .behance, body footer .redes .linkedin {
     width: auto;
     height: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
   }
   body .body-inicio .parrafoprinc {
     font-size: medium;
@@ -631,7 +633,7 @@ body .shop-container .item-sh.doce1 {
   body .contacto-container {
     display: grid;
     grid-template-columns: 70px 300px 70px;
-    grid-template-rows: 200px 200px 40px 25px;
+    grid-template-rows: 200px 200px 40px 50px;
     gap: 15px;
     padding: 5px;
     justify-content: center;
@@ -949,12 +951,14 @@ body .shop-container .item-sh.doce1 {
   footer .redes {
     list-style-type: none;
     display: inline;
-    padding: 2px;
+    padding: 10px;
     align-items: center;
   }
-  footer .redes .instagram, footer .redes .facebook, footer .redes .youtube {
+  footer .redes .instagram, footer .redes .facebook, footer .redes .youtube, footer .redes .behance, footer .redes .linkedin {
     width: auto;
     height: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
   }
   .grid-container {
     display: grid;
@@ -1044,7 +1048,7 @@ body .shop-container .item-sh.doce1 {
   .contacto-container {
     display: grid;
     grid-template-columns: 70px 300px 70px;
-    grid-template-rows: 200px 200px 40px 25px;
+    grid-template-rows: 200px 200px 40px 50px;
     gap: 15px;
     padding: 5px;
     justify-content: center;
@@ -1285,7 +1289,7 @@ body .shop-container .item-sh.doce1 {
     list-style-type: none;
     font-family: "Courier New", Courier, monospace;
     font-weight: 600;
-    font-size: medium;
+    font-size: large;
     align-content: center;
     display: inline-flex;
     justify-content: center;
@@ -1323,9 +1327,11 @@ body .shop-container .item-sh.doce1 {
     justify-content: center;
   }
   body header nav ul li a {
-    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
     color: #7F9183;
     text-decoration: none;
+    font-size: large;
   }
   body header nav ul li a:hover {
     color: #596f6b;
@@ -1333,7 +1339,7 @@ body .shop-container .item-sh.doce1 {
   body header nav ul li .logojb {
     align-content: center;
     display: inline;
-    width: 60px;
+    width: 70px;
   }
   body h1 {
     color: #596f6b;
@@ -1354,12 +1360,9 @@ body .shop-container .item-sh.doce1 {
     color: #596e6b;
     font-family: "Courier New", Courier, monospace;
     text-align: center;
-    padding: 20px;
+    padding: 30px;
     font-size: large;
     font-weight: 500;
-  }
-  body .body-inicio .video_inicio {
-    text-align: center;
   }
   body footer {
     padding: 10px;
@@ -1372,11 +1375,12 @@ body .shop-container .item-sh.doce1 {
   body footer .redes {
     list-style-type: none;
     display: inline;
-    padding: 2px;
   }
-  body footer .redes .instagram, body footer .redes .facebook, body footer .redes .youtube {
+  body footer .redes .instagram, body footer .redes .facebook, body footer .redes .youtube, body footer .redes .behance, body footer .redes .linkedin {
     width: auto;
     height: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
   }
   body form {
     text-align: end;
@@ -1484,7 +1488,7 @@ body .shop-container .item-sh.doce1 {
   body .contacto-container {
     display: grid;
     grid-template-columns: 300px 300px 400px;
-    grid-template-rows: 300px 50px 30px;
+    grid-template-rows: 300px 50px 50px;
     gap: 20px;
     padding: 5px;
     justify-content: center;
