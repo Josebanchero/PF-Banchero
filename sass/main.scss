@@ -1128,38 +1128,45 @@ body {
         }
     }
 
-    .parrafoprinc {
-        color: #596e6b;
-        font-family: 'Courier New', Courier, monospace;
-        text-align: center;
-        padding: 20px;
-        font-size: larger;
-        font-weight: 500;
-    }
-    .galeria {
-        padding: 16px;
-        
-        .img_princ img {
-            width: 100%;
-            object-fit: cover;
-            display: block;
+   
+
+    .body-inicio {
+        .parrafoprinc {
+            color: #596e6b;
+            font-family: 'Courier New', Courier, monospace;
+            text-align: center;
+            padding: 20px;
+            font-size: larger;
+            font-weight: 500;
         }
-        .lista-imagenes {
-            display: flex;
-            overflow: auto;
-            margin-top: 10px;
-            cursor: all-scroll;
-            img {
+
+        .galeria {
+            padding: 16px;
+            
+            .img_princ img {
                 width: 100%;
                 object-fit: cover;
-                width: 350px;
-                height: 350px;
-                margin-right: 10px;
                 display: block;
             }
+            .lista-imagenes {
+                display: flex;
+                overflow: auto;
+                margin-top: 10px;
+                cursor: all-scroll;
+                img {
+                    width: 100%;
+                    object-fit: cover;
+                    width: 350px;
+                    height: 350px;
+                    margin-right: 10px;
+                    display: block;
+                }
+            }
+    
         }
 
     }
+   
     
     h3, h4 {
         font-family: 'Courier New', Courier, monospace;

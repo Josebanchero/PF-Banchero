@@ -971,7 +971,7 @@ body .shop-container .item-sh.doce1 {
     display: inline;
     width: 45px;
   }
-  .parrafoprinc {
+  .body-inicio .parrafoprinc {
     color: #596e6b;
     font-family: "Courier New", Courier, monospace;
     text-align: center;
@@ -979,22 +979,22 @@ body .shop-container .item-sh.doce1 {
     font-size: larger;
     font-weight: 500;
   }
-  .galeria {
+  .body-inicio .galeria {
     padding: 16px;
   }
-  .galeria .img_princ img {
+  .body-inicio .galeria .img_princ img {
     width: 100%;
     -o-object-fit: cover;
        object-fit: cover;
     display: block;
   }
-  .galeria .lista-imagenes {
+  .body-inicio .galeria .lista-imagenes {
     display: flex;
     overflow: auto;
     margin-top: 10px;
     cursor: all-scroll;
   }
-  .galeria .lista-imagenes img {
+  .body-inicio .galeria .lista-imagenes img {
     width: 100%;
     -o-object-fit: cover;
        object-fit: cover;
