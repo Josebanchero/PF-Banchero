@@ -52,22 +52,31 @@ body {
         
         }
         
+  
         footer {
-            text-align: center;
+                
             padding: 10px;
+            background-color: $sage-claro;
+            height: 50px;
+            width: 100%;
+            justify-content: center;
+            align-self: baseline;
         
             .redes {
                 list-style-type: none;
                 display: inline;
-                padding: 2px;
-                align-items: center;
+                
+                
         
-                .instagram, .facebook, .youtube {
+                .instagram, .facebook, .youtube, .behance, .linkedin {
                     width: auto;
                     height: 30px;
+                    padding-left: 20px;
+                    padding-right: 20px;
                 }
             }
         }
+
         
         h1 {
             color: #596e6b;
@@ -225,12 +234,14 @@ body {
                             background: $beige-claro;
                             font-weight: 600;
                             width: 402px;
+                            cursor: text;
                         }
         
                         textarea {
                             color: #596e6b;
                             background: #e3ddd9;
                             font-weight: 600;
+                            cursor: text;
                         }
                     }
                 
@@ -346,6 +357,7 @@ body {
                     font-weight: 600;
                     border: 0;
                     border-radius: 6px;
+                    
                         &:hover {
                             background: #596e6b;
                             color: #e3ddd9;
@@ -524,7 +536,7 @@ body {
 
 
 
-@media (min-width: 500px) {
+@media (min-width: 390px) {
     body{
        
 
@@ -547,6 +559,8 @@ body {
                 flex-wrap: wrap;
                 align-items: center;
                 position: fixed;
+                margin-top: 0px;
+                align-self: start;
         
                     ul {
                         color: #cfc0bd;
@@ -626,6 +640,7 @@ body {
             width: 100%;
             align-content: center;
             justify-content: center;
+            align-self: baseline;
         
             .redes {
                 list-style-type: none;
@@ -636,10 +651,17 @@ body {
                 .instagram, .facebook, .youtube, .behance, .linkedin {
                     width: auto;
                     height: 30px;
-                    padding-left: 20px;
-                    padding-right: 20px;
+                    padding-left: 10px;
+                    padding-right: 10px;
                 }
             }
+        }
+
+        h1 {
+            color: #596e6b;
+            margin-top: 80px;
+            text-align: center;
+            padding: 10px;
         }
 
         
@@ -772,6 +794,7 @@ body {
                 background: #e3ddd9;
                 font-weight: 600;
                 width: 300px;
+                cursor: text;
             }
     
             .archivo {
@@ -1097,6 +1120,7 @@ body {
         width: 100%;
         align-content: center;
         justify-content: center;
+        align-self: baseline;
     
         .redes {
             list-style-type: none;
@@ -1232,6 +1256,7 @@ body {
                 background: #e3ddd9;
                 font-weight: 600;
                 width: 300px;
+                cursor: text;
             }
 
             .texto_form{
@@ -1564,7 +1589,10 @@ body {
                     color: #596e6b;
                     font-family: 'Courier New', Courier, monospace;
                     text-align: center;
-                    padding: 30px;
+                    padding-left: 100px;
+                    padding-right: 100px;
+                    padding-top: 50px;
+                    padding-bottom: 50px;
                     font-size: large;
                     font-weight: 500;
                     
@@ -1763,12 +1791,14 @@ body {
                             background: $beige-claro;
                             font-weight: 600;
                             width: 402px;
+                            cursor: text;
                         }
         
                         textarea {
                             color: #596e6b;
                             background: #e3ddd9;
                             font-weight: 600;
+                            cursor: text;
                         }
                     }
                 

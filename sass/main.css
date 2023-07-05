@@ -37,18 +37,22 @@ body .body-inicio .video_inicio {
   text-align: center;
 }
 body footer {
-  text-align: center;
   padding: 10px;
+  background-color: #b8b8aa;
+  height: 50px;
+  width: 100%;
+  justify-content: center;
+  align-self: baseline;
 }
 body footer .redes {
   list-style-type: none;
   display: inline;
-  padding: 2px;
-  align-items: center;
 }
-body footer .redes .instagram, body footer .redes .facebook, body footer .redes .youtube {
+body footer .redes .instagram, body footer .redes .facebook, body footer .redes .youtube, body footer .redes .behance, body footer .redes .linkedin {
   width: auto;
   height: 30px;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 body h1 {
   color: #596e6b;
@@ -187,11 +191,13 @@ body .form .contacto-container .item-c.dos .nombre_form, body .form .contacto-co
   background: #DDD5D0;
   font-weight: 600;
   width: 402px;
+  cursor: text;
 }
 body .form .contacto-container .item-c.dos textarea {
   color: #596e6b;
   background: #e3ddd9;
   font-weight: 600;
+  cursor: text;
 }
 body .form .contacto-container .item-c.tres {
   justify-self: start;
@@ -445,7 +451,7 @@ body .shop-container .item-sh.doce1 {
   grid-row: 6/7;
 }
 
-@media (min-width: 500px) {
+@media (min-width: 390px) {
   body header {
     background-color: #DDD5D0;
     display: flex;
@@ -463,6 +469,8 @@ body .shop-container .item-sh.doce1 {
     flex-wrap: wrap;
     align-items: center;
     position: fixed;
+    margin-top: 0px;
+    align-self: start;
   }
   body header nav ul {
     color: #cfc0bd;
@@ -528,6 +536,7 @@ body .shop-container .item-sh.doce1 {
     width: 100%;
     align-content: center;
     justify-content: center;
+    align-self: baseline;
   }
   body footer .redes {
     list-style-type: none;
@@ -538,8 +547,14 @@ body .shop-container .item-sh.doce1 {
   body footer .redes .instagram, body footer .redes .facebook, body footer .redes .youtube, body footer .redes .behance, body footer .redes .linkedin {
     width: auto;
     height: 30px;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  body h1 {
+    color: #596e6b;
+    margin-top: 80px;
+    text-align: center;
+    padding: 10px;
   }
   body .body-inicio .parrafoprinc {
     font-size: medium;
@@ -655,6 +670,7 @@ body .shop-container .item-sh.doce1 {
     background: #e3ddd9;
     font-weight: 600;
     width: 300px;
+    cursor: text;
   }
   body .contacto-container .archivo {
     font-family: "Courier New", Courier, monospace;
@@ -947,6 +963,7 @@ body .shop-container .item-sh.doce1 {
     width: 100%;
     align-content: center;
     justify-content: center;
+    align-self: baseline;
   }
   footer .redes {
     list-style-type: none;
@@ -1067,6 +1084,7 @@ body .shop-container .item-sh.doce1 {
     background: #e3ddd9;
     font-weight: 600;
     width: 300px;
+    cursor: text;
   }
   .contacto-container .texto_form {
     height: 110px;
@@ -1360,7 +1378,10 @@ body .shop-container .item-sh.doce1 {
     color: #596e6b;
     font-family: "Courier New", Courier, monospace;
     text-align: center;
-    padding: 30px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 50px;
+    padding-bottom: 50px;
     font-size: large;
     font-weight: 500;
   }
@@ -1522,11 +1543,13 @@ body .shop-container .item-sh.doce1 {
     background: #DDD5D0;
     font-weight: 600;
     width: 402px;
+    cursor: text;
   }
   body .contacto-container .item-c.dos textarea {
     color: #596e6b;
     background: #e3ddd9;
     font-weight: 600;
+    cursor: text;
   }
   body .contacto-container .item-c.tres {
     justify-self: start;
